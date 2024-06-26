@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Text Navbar</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="templatemo-style.css">
+
+
+</head>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #ff751a;
+    overflow: hidden;
+}
+
+.navbar-center {
+    text-align: center;
+    color: white;
+    padding: 14px 0;
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+}
+
+.navbar-center i {
+    margin-right: 8px;
+}
+
+.navbar-center::before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.navbar-center > span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:560px) {
+	.navbar-center {
+    color: white;
+    padding: 14px 0;
+    font-size:9x;
+    width: 100%;
+    position: relative;
+}
+
+}
+@media screen and (max-width:660px) {
+  .row{
+    margin-top: 110px;
+  }
+}
+
+	</style>
+<body>
+    <div class="navbar">
+        <div class="navbar-center">
+            <i class="fas fa-phone"></i> TEL: 0168345656 &nbsp;&nbsp;
+            <i class="fas fa-map-marker-alt"></i> 142-Cheethamhill Road,Mancchester M8 8PZ
+        </div>
+    </div>
+	<!-- section -->
+  <div class="logo"  style="display: flex; justify-content: center; align-items: center; width:200px; height:100px;   margin: auto;">
+		<img width="300px"  src="Assets/llll-01.png" alt="">
+
+	 </div>
+
+
+	 <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">CodingLab</a></span>
+					<i class="fas fa-times siderbarClose"></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="OpeningDelivery.html">Opening & Delivery					</a></li>
+                    
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                
+                   </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+	  
+    
+	  <header  class="header">
+      <div class="overlay"></div>
+      <div class="header-content">
+  <h1 data-aos="fade-zoom-in" style="font-family: 'Playwright NO', cursive; text-align: center;  ">Food Lover</h1>
+  <h4 data-aos="fade-left" style="margin-top: -20px; font-size: 1.4rem;">SUPRISE YOUR PLATE  FINE FOOD + DRINKS</h4>
+  </header>
+
+	
+		
+    <!-- Menu-Section-gallery -->
+
+    <div class="tm-paging-links" style="margin-top: 10px;">
+      <nav style="background-color: white;">
+          <ul>
+              <li class="tm-paging-item"><a href="#" class="tm-paging-link active">Starter</a></li>
+              <li class="tm-paging-item"><a href="#" class="tm-paging-link">Dishes</a></li>
+              <li class="tm-paging-item"><a href="#" class="tm-paging-link">LahoriSpecial</a></li>
+              <li class="tm-paging-item"><a href="#" class="tm-paging-link">Naan</a></li>
+              <li class="tm-paging-item"><a href="#" class="tm-paging-link">Drinks</a></li>
+          </ul>
+      </nav>
+  </div>
+  <div class="row tm-gallery">
+      <!-- gallery page 1 -->
+      <div id="tm-gallery-page-starter" class="tm-gallery-page">
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX5uNKmysA325oYl7mN76YGwsXnC63av-utg&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Chargha (Full Fried Chicken)</h4>
+                      <p class="tm-gallery-price">$45 / $55</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img width="100%" height="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72dyERLUbP8gAa2iwy0bGpIq5OmO3mJ2jDg&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Lahori Fish (Fried Per Kg)</h4>
+                      </p>
+                      <p class="tm-gallery-price">18.00</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img width="100%" height="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSie8D1d5a9pMt7xt9BHM_cw8zcBBKZ5H5hTw&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Desi Chargha (Steam Roast - Full Chicken)</h4>
+                      <p class="tm-gallery-price">$30.50</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmV3oz_ruhHh3nt82R3yujErWFV-Uj9Gy7Lg&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Seekh Kebab (4 Pcs)</h4>
+                      <p class="tm-gallery-price">$25.50</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://lifeloveandgoodfood.com/wp-content/uploads/2021/10/Broiled-Lamb-Chops-6-1200x1200-1-500x375.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Lamb Chopes (5 Pcs)</h4>
+                      <p class="tm-gallery-price">$80.25</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://www.budgetbytes.com/wp-content/uploads/2024/01/buffalo-wings-overhead-horizontal-WR-scaled.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Chicken Wings (5 Pcs)</h4>
+                      <p class="tm-gallery-price">$20 / $40 / $60</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ST6ihlVIb_s6MIRLkpXZh-C4_AA-o-Hk8g&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Lamb Tikka (5 Pcs)</h4>
+                      <p class="tm-gallery-price">$94</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeUKq2jUKhhFw-AitTwh-rXpoq6OTlPNBwvw&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Chicken Tikka (5 Pcs)</h4>
+                      <p class="tm-gallery-price">$15</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLu1lK8vTkKL16z-uaPzl_HFsdZWN5eJ3Zg&s" alt="Image" class="img-fluid tm-gallery-img" />
+                <figcaption>
+                    <h4 class="tm-gallery-title">Malai Botti (5 Pcs)</h4>
+                    <p class="tm-gallery-price">$15</p>
+                </figcaption>
+            </figure>
+        </article>
+    
+      </div> <!-- gallery page 1 -->
+      
+      <!-- gallery page 2 -->
+      <div id="tm-gallery-page-dishes" class="tm-gallery-page hidden">
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbD3HRiO_B9ovaqiq6PmU8tsPVABXaSIyTQA&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Hiran Karahi (per Kg)</h4>
+                      <p class="tm-gallery-price">$25</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://www.foodandwine.com/thmb/wvONP5TdkWFDEE0izMKI8DfLzG4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Lamb-Chops-Sizzled-with-Garlic-FT-RECIPE0822-2000-a8c82475f602427e86083f2db1ecd37c.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Lamb Dishes</h4>
+                      
+                    <b>  <p class="tm-gallery-description">Fresh Lamb Dishes, Fresh Tomoato Lamb Karahi, Fresh Lamb Chili Karahi, Fresh Lamb Butter Karahi</p></b>
+                      <p class="tm-gallery-price">$30</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://www.foodandwine.com/thmb/EfUCoSTOsihElhemf6pM5B5t-YQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/roast-chicken-with-chile-basil-vinaigrette-FT-RECIPE0321-7da10eb123af434c9f350abe24d0d8a8.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Chicken Dishes</h4>
+                     <b> <p class="tm-gallery-description">Fresh Chicken Karahi, Fresh Tomato Chicken Karahi, Fresh Chicken Chili Karahi, Fresh Chicken Butter Karahi</p></b>
+                      <p class="tm-gallery-price">$45</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvr0DJo6-t3BaRGwt3xzrOmNIypPp3GbLKog&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Lamb Curry (Lamb on the Bone)</h4>
+                      <p class="tm-gallery-price">$50</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img width="100%" height="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_rfLKdqvmSoPjCPYX3XzfBBJzQnZXO0clsQ&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Chicken Curry</h4>
+                      <p class="tm-gallery-price">$55 / $60</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img width="100%" height="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLPzgpAWUh_2P3EmitEbzAS6G6z35MrkARZw&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Lahori Chanay (Chick Peas)</h4>
+                       <p class="tm-gallery-price">$75</p>
+                  </figcaption>
+              </figure>
+          </article>
+      </div> <!-- gallery page 2 -->
+      
+      <!-- gallery page 3 -->
+      <div id="tm-gallery-page-lahorispecial" class="tm-gallery-page hidden">
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQeNMZvmr-tqBklOKX1jjQUPBmJ-R_Zo178g&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Lamb Paya (Portion)</h4>
+                     
+                      <p class="tm-gallery-price">$12.50</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://i.ytimg.com/vi/ab27yLl1-JE/maxresdefault.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Hareesa (Portion)</h4>
+                
+                      <p class="tm-gallery-price">$15.50</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://i.ytimg.com/vi/RzoKHLzPo9Q/maxresdefault.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Taka Tak (Portion)</h4>
+                 
+                      <p class="tm-gallery-price">$20.50</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6zZHfKBItiqP-TePIPHgrr1oKBEhXwMvQdw&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Haleem (Portion)</h4>
+                
+                      <p class="tm-gallery-price">$30.25</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoRYOHNG_kdJAjACzeXAlNusuQBjYyA6VswA&s" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Hirn Karahi (Portion)</h4>
+                  
+                      <p class="tm-gallery-price">$35.50</p>
+                  </figcaption>
+              </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                  <img src="https://untoldrecipesbynosheen.com/wp-content/uploads/2021/02/IMG_6031-1024x768.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+                  <figcaption>
+                      <h4 class="tm-gallery-title">Tawa Keema (Mince Meat)</h4>
+                    
+                      <p class="tm-gallery-price">$40.50</p>
+                  </figcaption>
+              </figure>
+          </article>
+
+      </div> <!-- gallery page 3 -->
+
+      <!-- gallery page 4 -->
+      <div id="tm-gallery-page-naan" class="tm-gallery-page hidden">
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+                <img src="https://i.ytimg.com/vi/5L9QRzDGQdM/sddefault.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+                <figcaption>
+                    <h4 class="tm-gallery-title">Rogni Kulcha Naan</h4>
+                
+                    <p class="tm-gallery-price">$12.50</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcV4dXB1pG8WX_lc3ow6c0UWseC-lo52CocA&s" alt="Image" class="img-fluid tm-gallery-img" />
+                <figcaption>
+                    <h4 class="tm-gallery-title">Naan</h4>
+                  
+                    <p class="tm-gallery-price">$15.50</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+                <img src="https://www.allrecipes.com/thmb/zDjlMAIFpo3UDAZYLiErkruzMQE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/AR-85469-indian-chapati-bread-DDMFS-4x3-d2692c11f56b4546b35dccd42ace1958.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+                <figcaption>
+                    <h4 class="tm-gallery-title">Roti (Chapati)</h4>
+                
+                    <p class="tm-gallery-price">$20.50</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1YeJcyXYkSXeiQiU6mDc5b_aew5SSVNtnRTZX4c1YVd_mxCU2ISzCuSXgEpXiUjiQnsU&usqp=CAU" alt="Image" class="img-fluid tm-gallery-img" />
+                <figcaption>
+                    <h4 class="tm-gallery-title">Paratha (Portion)</h4>
+            
+                    <p class="tm-gallery-price">$30.25</p>
+                </figcaption>
+            </figure>
+        </article>
+      
+      
+
+    </div> <!-- gallery page 4 -->
+
+
+      <!-- gallery page 5 -->
+      <div id="tm-gallery-page-drinks" class="tm-gallery-page hidden">
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+                <img src="https://t4.ftcdn.net/jpg/03/49/80/15/360_F_349801592_MX0ZnIl6pXNQH4srBoJEhJCSxlhUTDpf.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+                <figcaption>
+                    <h4 class="tm-gallery-title">Soft Drink (Any Can)</h4>
+                
+                    <p class="tm-gallery-price">$12.50</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWoYPVEBq640GKPGB3PIXRLrPbGhC7gxviNw&s" alt="Image" class="img-fluid tm-gallery-img" />
+                <figcaption>
+                    <h4 class="tm-gallery-title">Soft Drink (jug)</h4>
+                  
+                    <p class="tm-gallery-price">$15.50</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+                <img src="https://i0.wp.com/kalimirchbysmita.com/wp-content/uploads/2018/04/Mango-Lassi-Insta-1-1024x658.jpg?resize=1024%2C658" alt="Image" class="img-fluid tm-gallery-img" />
+                <figcaption>
+                    <h4 class="tm-gallery-title">Mango Lassi (per jug)</h4>
+                
+                    <p class="tm-gallery-price">$20.50</p>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ZaSIos-3HzcbF2qfv14cf7MYsLwDWwBNc4a5zm0F69SHlOSvjVR2sQaKFbCALtZJaWI&usqp=CAU" alt="Image" class="img-fluid tm-gallery-img" />
+                <figcaption>
+                    <h4 class="tm-gallery-title">Dasi Lassi (Sweet or Salty)</h4>
+            
+                    <p class="tm-gallery-price">$30.25</p>
+                </figcaption>
+            </figure>
+        </article>
+      
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlOVCLmbSXJD9B7I_6ZWysQXn1aMDpv7T0Xw&s" alt="Image" class="img-fluid tm-gallery-img" />
+              <figcaption>
+                  <h4 class="tm-gallery-title">Dasi Tea</h4>
+          
+                  <p class="tm-gallery-price">$30.25</p>
+              </figcaption>
+          </figure>
+      </article>
+      
+      <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmT6bR0xxy58zw-X9umHC1bZ9NKlNdtdtXDA&s" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+                <h4 class="tm-gallery-title">Twisto Bottle (330)</h4>
+        
+                <p class="tm-gallery-price">$30.25</p>
+            </figcaption>
+        </figure>
+    </article>
+    </div> <!-- gallery page 5 -->
+  </div>
+
+
+	 <!-- footer -->
+	 
+   <div class="main_footer" style="background-color: #ff751a;">
+    <div  class="container">
+      <footer>
+        <div class="footer-content">
+          <div class="logo"  style="display: flex; justify-content: center; align-items: center; width:200px; height:100px; padding-top: 30px;   margin: auto;">
+            <img width="300px"  src="Assets/llll-01.png" alt="">
+        
+           </div>
+  
+          <p>Lahori Badsha Restaurant offers a taste of authentic Pakistani cuisine at 142 Cheetham Hill Road, Manchester M8 8PZ. For reservations or inquiries, please call us at 01683 45656. Join us for an unforgettable dining experience! 4o Is this conversation helpful so far?</p>
+      <p style="font-family: 'Playwright NO', cursive; text-align: center;">Open 7 Days From 12:00 pm to 11:00 pm</p>
+  
+          <ul class="socials">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i  class="fab fa-google"></i></a>
+                  <a href="#"><i  class="fab fa-twitter"></i></a>
+                  <a href="#"><i  class="fab fa-linkedin"></i></a>
+                  <a href="#"><i  class="fab fa-youtube"></i></a>
+              
+          </ul>
+    </div>
+  </div>
+  </div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/parallax.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+	  <!-- Initialize Swiper -->
+	  <script>
+		
+  AOS.init();
+	  </script>
+
+<script>
+  
+const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      modeToggle = document.querySelector(".dark-light"),
+      searchToggle = document.querySelector(".searchToggle"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      siderbarClose = document.querySelector(".siderbarClose");
+
+      let getMode = localStorage.getItem("mode");
+          if(getMode && getMode === "dark-mode"){
+            body.classList.add("dark");
+          }
+
+// js code to toggle dark and light mode
+      modeToggle.addEventListener("click" , () =>{
+        modeToggle.classList.toggle("active");
+        body.classList.toggle("dark");
+
+        // js code to keep user selected mode even page refresh or file reopen
+        if(!body.classList.contains("dark")){
+            localStorage.setItem("mode" , "light-mode");
+        }else{
+            localStorage.setItem("mode" , "dark-mode");
+        }
+      });
+
+// js code to toggle search box
+        searchToggle.addEventListener("click" , () =>{
+        searchToggle.classList.toggle("active");
+      });
+ 
+      
+//   js code to toggle sidebar
+sidebarOpen.addEventListener("click" , () =>{
+    nav.classList.add("active");
+});
+
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
+
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
+});
+  </script>
+
+<script>
+ $(document).ready(function() {
+    // Handle click on paging links
+    $('.tm-paging-link').click(function(e) {
+      e.preventDefault();
+      var page = $(this).text().toLowerCase().trim();
+      $('.tm-gallery-page').addClass('hidden');
+      $('#tm-gallery-page-' + page).removeClass('hidden');
+      $('.tm-paging-link').removeClass('active');
+      $(this).addClass('active');
+    });
+  });
+</script>
+</body>
+</html>
