@@ -571,9 +571,11 @@ body.dark .search-field i{
 }
 
 @media (max-width: 790px) {
-    nav .nav-bar .sidebarOpen{
-        display: block;
+       nav .nav-bar .sidebarOpen{
+		display: block;
+        margin-left: 109px;
     }
+
 
     .menu{
         position: fixed;
